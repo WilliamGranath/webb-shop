@@ -76,7 +76,7 @@ const Checkout = ({ cart, resetCart }) => {
 						<iframe
 							title={'Klarna'}
 							src={
-								'https://klarna-checkout-william.herokuapp.com/checkout/AAA-123?cartItems=' +
+								'https://klaranintergration.netlify.app/checkout/AAA-123?cartItems=' +
 								stringifiedCartItems
 							}
 							frameBorder={'none'}
