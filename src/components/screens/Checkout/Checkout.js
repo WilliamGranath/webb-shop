@@ -72,7 +72,7 @@ const Checkout = ({ cart, resetCart }) => {
 					</Container>
 				</Grid>
 				<Grid item container lg={3} md={4} xs={12}>
-					<Container style={{ overflowY: 'scroll', height: '70%', padding: 0 }} maxWidth="sm">
+					<Container style={{ height: '70%', padding: 0 }} maxWidth="sm">
 						<iframe
 							title={'Klarna'}
 							src={
